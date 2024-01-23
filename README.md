@@ -11,7 +11,7 @@ localhost:8080/v1/author/create   -required jwt
 localhost:8080/v1/bookreg/**      -required jwt
 localhost:8080/v1/**              -permit all
 ```
-
+```sh
 http://localhost:8080/v1/author/create			                    POST
 http://localhost:8080/v1/author/{id}      		                  PUT
 http://localhost:8080/v1/author/page{?}    		                  GET
@@ -36,3 +36,4 @@ http://localhost:8080/v1/bookreg/{id}/confirm		                POST
 http://localhost:8080/v1/bookreg/{id}/cancel			              POST
 http://localhost:8080/v1/bookreg/{id}/return			              POST
 http://localhost:8080/v1/bookreg/page{n}				                GET
+```
