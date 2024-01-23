@@ -22,7 +22,7 @@ http://localhost:8080/v1/book/{id}  GET
 http://localhost:8080/v1/book/page{n}  GET
 http://localhost:8080/v1/book/page{n]/available  GET
 http://localhost:8080/v1/book/author/{id}/page{n}  GET
-http://localhost:8080/v1/book/author/3/page1/available  GET
+http://localhost:8080/v1/book/author/{id}/page1/available  GET
 http://localhost:8080/v1/book/genre/{id}/page{n}  GET
 http://localhost:8080/v1/book/genre/{id}/page{n}/available  GET
 
