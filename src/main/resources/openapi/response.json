@@ -1,0 +1,22 @@
+{
+  "successResponse": {
+    "code": 200,
+    "status": "success",
+    "message": "json array"
+  },
+  "forbiddenResponse": {
+    "code": 403,
+    "status": "Forbidden",
+    "message": "Forbidden"
+  },
+  "badRequest": {
+    "code": 400,
+    "status": "Bad request",
+    "message": "Bad request"
+  },
+  "unauthorized": {
+    "code": 401,
+    "status": "unauthorized",
+    "message": "unauthorized"
+  }
+}

@@ -1,0 +1,27 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://postgres:5432/lms_db
+    username: postgres
+    password: msbt
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: false
+    properties:
+      hibernate:
+        format_sql: true
+    database: postgresql
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+
+  docker:
+    compose:
+      enabled: true
+
+jwt:
+  secret-key: DDBCADF2481C76F86A1EAC7DBF1AEDDBCADF2481C76F86A1EAC7DBF1AE
+  expiration: 720m
+     
+springdoc:
+  api-docs:
+    path: /tms-docs 
